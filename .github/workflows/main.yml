@@ -12,7 +12,6 @@ jobs:
       with:
         token: ${{ secrets.TOKEN }}
     - name: Check if Commit Message Contains '[hello]'
-      run : |
           echo "[LOG] It contains [HackerRank], will update to other repo"
           echo "[LOG] Cloning HackerRank-Solutions"
           git clone https://github.com/martinhodtembo/helloworld21.git
