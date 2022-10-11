@@ -14,7 +14,6 @@ jobs:
     - name: Check if Commit Message Contains '[hello]'
       run : |
           echo "[LOG] It contains [HackerRank], will update to other repo"
-          cd ./HackerRank
           echo "[LOG] Cloning HackerRank-Solutions"
           git clone https://github.com/martinhodtembo/helloworld21.git
           echo "[LOG] Copying all cpp files"
